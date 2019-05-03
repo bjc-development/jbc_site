@@ -1,0 +1,72 @@
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /* 1 rem is 10px*/
+  font-size: 62.5%; }
+
+
+body{
+  line-height: 1.7;
+  color: #F3F8F2;
+  padding: 3rem;
+  box-sizing: border-box; 
+}
+
+nav {
+	padding: 1rem;
+	box-sizing: border-box; 
+}
+
+.navbar-brand .navbar-item {
+	height: 5rem;
+	width: 5rem;
+}
+
+.header {
+  height: 95vh;
+}
+
+.header--print {
+	height: 85vh;
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+  	background-image: linear-gradient(to right bottom, rgba(102, 51, 0, 1), rgba(246, 254, 170, 0.8)), url(./img/leaves_green.jpeg);
+  	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.header__icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.header__main-text{
+	font-size: 2rem;
+	color: rgba(0, 51, 0, 1);
+	letter-spacing: 3px;
+	text-shadow: 3px 2px rgba(102, 51, 0, 1);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.team {
+	text-align: center;
+}
+
+.team .team__text h1 {
+	font-size: 5rem;
+	color: rgba(102, 51, 0, 1);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.team .team__table .card {
+	margin: 2rem;
+}
