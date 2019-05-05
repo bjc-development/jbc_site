@@ -24,8 +24,7 @@ nav {
 }
 
 .navbar-brand .navbar-item {
-  height: 5rem;
-  width: 5rem;
+  bottom: .5rem;
 }
 
 .header {
@@ -33,7 +32,7 @@ nav {
 }
 
 .header__print {
-  height: 85vh;
+  height: 95vh;
   background-size: cover;
   background-position: top;
   position: relative;
@@ -71,6 +70,24 @@ nav {
   	animation-duration: 3s;
 }
 
+#tile--parent {
+	margin: 3rem;
+}
+
+#home-row {
+	text-align: center;
+	display: block;
+	margin: 4rem;
+}
+
+#home-row .home--row__subheading {
+	line-height: 1.5rem;
+	letter-spacing: .2rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+/* Team Page specific styles */
+
 .team {
   text-align: center;
 }
@@ -84,6 +101,9 @@ nav {
 .team .team__table .card {
   margin: 2rem;
 }
+
+
+/* About us specific styles */
 
 .headerAboutUs {
   font-size: 5rem;
