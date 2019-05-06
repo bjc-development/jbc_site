@@ -19,13 +19,23 @@
       href="https://fonts.googleapis.com/css?family=Permanent+Marker"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <title>About</title>
   </head>
   <body>
-    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-flex-desktop is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
-          <img src="../img/brown_leaf.png" width="112" height="28" />
+          <img src="/Artboard 1.png" width="112" height="28" />
         </a>
 
         <a
@@ -50,27 +60,10 @@
           <a class="navbar-item" href="Nav_Pages\theTeam.html">
             The Team
           </a>
-
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              More
+            <a class="navbar-item" href="Nav_Pages\Contact.html">
+              Contact
             </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="Nav_Pages\About.html">
-                About
-              </a>
-              <a class="navbar-item" href="Nav_Pages\Jobs.html">
-                Jobs
-              </a>
-              <a class="navbar-item" href="Nav_Pages\Contact.html">
-                Contact
-              </a>
-              <hr class="navbar-divider" />
-              <a class="navbar-item" href="Nav_Pages\reportAnIssue.html">
-                Report an issue
-              </a>
-            </div>
           </div>
         </div>
 
@@ -88,21 +81,87 @@
         </div>
       </div>
     </nav>
-    <header class="header">
-      <div class="header--print"></div>
-      <div class="header__icon-box">
-        <h1 class="headerAboutUs">Contact Us</h1>
+    <header>
+      <div class="miniPageHeaderPrint">
+        <div class="header__icon-box">
+          <h1 class="headerAboutUs">Contact Us</h1>
+        </div>
       </div>
     </header>
-
-    <p class="aboutUsParagraph">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-      doloribus laudantium temporibus ducimus a reiciendis, vel accusamus
-      pariatur enim perferendis totam aliquam illum itaque, id velit amet,
-      facilis sed explicabo saepe? Impedit facere nihil neque, similique
-      recusandae ducimus consequuntur corporis est consectetur dolorum quasi
-      quia nesciunt enim porro dolor ut sed odit nemo eligendi quos ad officiis
-      aut? Incidunt, in!
-    </p>
+    <section class="section">
+      <div class="container">
+        <p class="contactUsContent subtitle is-medium">
+          Need to get ahold of the team? You can contact us through any of our
+          social media pages or submit the form below.
+        </p>
+      </div>
+      <div class="contactUsIcons section">
+        <div class="container">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+            ><i class="contactUsIconsInner fab fa-facebook-square fa-4x"></i
+          ></a>
+          <a href="#"
+            ><i class="contactUsIconsInner fab fa-twitter-square fa-4x"></i
+          ></a>
+          <a href="#"
+            ><i class="contactUsIconsInner fab fa-instagram fa-4x"></i
+          ></a>
+        </div>
+      </div>
+      <div class="contactUsForm">
+        <form class="" action="POST">
+          <div class="inline contactUsFormItem">
+            <div class="firstName">
+              <h1>First Name</h1>
+              <input
+                class="inline input is-rounded is-primary"
+                type="text"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="lastName">
+              <h1 class="lastName">Last Name</h1>
+              <input
+                class="inline input is-rounded is-primary"
+                type="text"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+          <div class="contactUsFormItem">
+            <h1>Email</h1>
+            <input
+              class="input is-rounded is-primary"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="contactUsFormItem">
+            <h1>Phone Number</h1>
+            <input
+              class="input is-rounded is-primary"
+              type="tel"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="contactUsFormItem">
+            <h1>Message</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id=""
+              cols="80"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="contactUsFormItem">
+            <button class="button is-success">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
