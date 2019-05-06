@@ -80,6 +80,7 @@ nav {
   font-size: 5rem;
   color: rgba(102, 51, 0, 1);
   font-family: "Permanent Marker", cursive;
+  line-height: 5rem;
 }
 
 .contactUsContent {
@@ -128,7 +129,7 @@ nav {
   width: 45%;
 }
 
-.contactUsHeaderPrint {
+.miniPageHeaderPrint {
   height: 30vh;
   background-size: cover;
   background-position: top;
@@ -140,4 +141,11 @@ nav {
     ),
     url(../img/leaves_green.jpeg);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.aboutUsParagraph {
+  line-height: 2rem;
+  text-align: center;
+  font-size: 35px;
+  padding: 10%;
 }
