@@ -24,8 +24,7 @@ nav {
 }
 
 .navbar-brand .navbar-item {
-  height: 5rem;
-  width: 5rem;
+  bottom: .5rem;
 }
 
 .header {
@@ -33,7 +32,7 @@ nav {
 }
 
 .header__print {
-  height: 85vh;
+  height: 95vh;
   background-size: cover;
   background-position: top;
   position: relative;
@@ -71,6 +70,24 @@ nav {
   	animation-duration: 3s;
 }
 
+#tile--parent {
+	margin: 3rem;
+}
+
+#home-row {
+	text-align: center;
+	display: block;
+	margin: 4rem;
+}
+
+#home-row .home--row__subheading {
+	line-height: 1.5rem;
+	letter-spacing: .2rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+/* Team Page specific styles */
+
 .team {
   text-align: center;
 }
@@ -85,10 +102,81 @@ nav {
   margin: 2rem;
 }
 
+
+/* About us specific styles */
+
 .headerAboutUs {
   font-size: 5rem;
   color: rgba(102, 51, 0, 1);
   font-family: "Permanent Marker", cursive;
+  line-height: 5rem;
+}
+
+.contactUsContent {
+  text-align: center;
+}
+
+.contactUsIcons {
+  text-align: center;
+}
+
+.contactUsIconsInner {
+  padding: 20px;
+}
+
+.contactUsForm {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactUsFormItem {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 10px;
+}
+
+.input {
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+  width: 30%;
+}
+
+.firstName {
+  display: inline-block;
+  width: 45%;
+}
+
+.lastName {
+  display: inline-block;
+  width: 45%;
+}
+
+.miniPageHeaderPrint {
+  height: 30vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(102, 51, 0, 1),
+      rgba(246, 254, 170, 0.8)
+    ),
+    url(../img/leaves_green.jpeg);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.aboutUsParagraph {
+  line-height: 2rem;
+  text-align: center;
+  font-size: 35px;
+  padding: 10%;
 }
 
 
