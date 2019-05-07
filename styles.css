@@ -248,9 +248,11 @@ nav {
   padding: 10%;
 }
 
-
+.centerText {
+  text-align: center;
+}
 /*
-	Keyframes 
+	Keyframes
 */
 
 @keyframes moveInLeft {
@@ -261,7 +263,7 @@ nav {
     transform: translateX(1rem); }
   100% {
     opacity: 1;
-    transform: translate(0); } 
+    transform: translate(0); }
 }
 
 @keyframes moveInRight {
@@ -272,6 +274,5 @@ nav {
     transform: translateX(-1rem); }
   100% {
     opacity: 1;
-    transform: translateX(0); } 
+    transform: translateX(0); }
 }
-
