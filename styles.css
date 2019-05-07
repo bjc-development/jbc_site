@@ -172,8 +172,86 @@ nav {
   margin: 2rem;
 }
 
+.circleImage {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 50px;
 
+}
+
+/* Team Page specific styles */
+.centerTeamText {
+  text-align: center;
+  font-size: 22px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 25px;
+}
+
+.teamName {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: cursive;
+  padding-bottom: 20px;
+  border-bottom: 6px double black;
+}
+
+.teamNameDesc {
+
+}
+
+.ourExperienceHeader {
+  font-size: 4rem;
+  font-style: oblique;
+  font-family: cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.ourExperience {
+  background: linear-gradient(
+      to right bottom,
+      rgba(102, 51, 0, 1),
+      rgba(246, 254, 170, 0.8));
+margin-top: 60px;
+}
+
+.ourExperienceContent {
+  color: white;
+  font-size: 22px;
+  padding-bottom: 35px;
+}
+
+.pastProjects {
+  background: linear-gradient(
+      to right bottom,
+      rgba(102, 51, 0, 1),
+      rgba(246, 254, 170, 0.8));
+}
+
+.pastProjectsHeader {
+  font-size: 4rem;
+  font-style: oblique;
+  font-family: cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.pastProjectsContent {
+font-size: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.pastProjectsContentInd {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /* About us specific styles */
+
 
 .headerAboutUs {
   font-size: 5rem;
