@@ -72,6 +72,8 @@ nav {
 
 #tile--parent {
 	margin: 3rem;
+	font-family: 'Istok Web', sans-serif;
+	color: black;
 }
 
 #home-row {
@@ -86,6 +88,73 @@ nav {
 	margin-right: 2rem;
 	margin-left: 2rem;
 }
+
+#level-section {
+	margin: 0;
+}
+
+.level {
+	height: 80vh;
+}
+
+#left-level-one {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 50vw;
+	height: 80vh;
+	background: linear-gradient(
+      to right bottom,
+      rgba(102, 51, 0, 1),
+      rgba(246, 254, 170, 0.8)
+    )
+}
+
+#right-level-one {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 50vw;
+	height: 80vh;
+}
+
+.right-level-one__image {
+	height: 100%;
+	width: 100%;
+}
+
+#right-level-two {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 65vw;
+	height: 80vh;
+}
+
+#left-level-two {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 35vw;
+	height: 80vh;
+	background: linear-gradient(
+      to right bottom,
+      rgba(102, 51, 0, 1),
+      rgba(246, 254, 170, 0.8)
+    )
+}
+
+.left-inners {
+	color: black;
+	margin: 2rem;
+	padding: 1rem;
+	font-family: 'Istok Web', sans-serif;
+}
+
+.left-inners .paragraphs {
+	font-size: 1.2rem;
+}
+
+.left-inners .btn-large {
+	margin-top: 1rem;
+}
+
 /* Team Page specific styles */
 
 .team {
