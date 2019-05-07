@@ -171,7 +171,13 @@ nav {
   margin: 2rem;
 }
 
+.circleImage {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 50px;
 
+}
 /* About us specific styles */
 
 .headerAboutUs {
@@ -250,6 +256,15 @@ nav {
 
 .centerText {
   text-align: center;
+}
+
+.centerTeamText {
+  text-align: center;
+  font-size: 22px;
+  border-radius: 60%;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 25px;
 }
 /*
 	Keyframes
