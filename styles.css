@@ -180,6 +180,26 @@ nav {
 }
 
 /* Team Page specific styles */
+.centerTeamText {
+  text-align: center;
+  font-size: 22px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 25px;
+}
+
+.teamName {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: cursive;
+  padding-bottom: 20px;
+  border-bottom: 6px double black;
+}
+
+.teamNameDesc {
+
+}
+
 .ourExperienceHeader {
   font-size: 4rem;
   font-style: oblique;
@@ -308,15 +328,6 @@ padding-bottom: 15px;
 
 .centerText {
   text-align: center;
-}
-
-.centerTeamText {
-  text-align: center;
-  font-size: 22px;
-  border-radius: 60%;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 25px;
 }
 /*
 	Keyframes
