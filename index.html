@@ -86,13 +86,13 @@
 
 
     <div id="home-row" class="row">
-      <div class="col s4">
+      <div id="home-row__item" class="col s4">
           <i class="material-icons large">smartphone</i>
           <h4 class="home-row__heading">Mobile Apps</h4>
           <p class="home--row__subheading">Get beautiful mobile applications designed and built for your company. Our mobile applications are coded to match your unique brand and to attract customers from different platforms. Are you ready to expand? 
           </p>
       </div>
-      <div class="col s4">
+      <div id="home-row__item" class="col s4">
           <i class="material-icons large">today</i>
           <h4 class="home-row__heading">24/7 Support</h4>
           <p class="home--row__subheading">
@@ -100,7 +100,7 @@
            but it is the work that we enjoy. It's our dedication to your brand that ensures continued success!
       	</p>
       </div>
-      <div class="col s4">
+      <div id="home-row__item" class="col s4">
           <i class="material-icons large">web</i>
           <h4 class="home-row__heading">Websites</h4>
           <p class="home--row__subheading">
@@ -109,45 +109,50 @@
       </div>
     </div>
 
-    <section id="level-section" class="level is-mobile">
+    <section id="level-section" class="level">
     	<div class="level-left">
-    		<div id="left-level-one" class="level-item">
-    			<div class="left-inners">
-    				<h4> We know the web</h4>
-    				<p class="paragraphs">There are tons of other website development companies out there, and we know that most are great! So why would you choose Jungle Bunch Creations to build your website? It's simple, we know the web. We've spent countless hours studying and creating solutions so that you can get the best results!</p>
-    				<a class="waves-effect waves-light btn-large lime darken-4">Contact Us</a>
-				</div>
+    		<div class="level-item">
+    			<div id="left-level-one">
+    				<div class="left-inners">
+    					<h4> We know the web</h4>
+    					<p class="paragraphs">There are tons of other website development companies out there, and we know that most are great! So why would you choose Jungle Bunch Creations to build your website? It's simple, we know the web. We've spent countless hours studying and creating solutions so that you can get the best results!</p>
+    					<a class="waves-effect waves-light btn-large lime darken-4">Contact Us</a>
+					</div>
+    			</div>
     		</div>
     	</div>
-    	<div class="level-right">
-    		<div lass="level-item">
-	    		<div id="right-level-one" class="has-text-centered">
-	    			<img class="right-level-one__image" src="./img/web_dev_image_2.jpg">
-	    		</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section id="level-section" class="level is-mobile">
     	<div class="level-right">
     		<div class="level-item">
-	    		<div id="right-level-two" class="has-text-centered">
-	    			<img class="right-level-one__image" src="./img/web_dev_image_3.jpg">
+	    		<div id="right-level-one">
+	    			<img class="level-image" src="./img/web_dev_image_2.jpg">
 	    		</div>
-    		</div>
-    	</div>
-    	<div class="level-left">
-    		<div id="left-level-two" class="level-item">
-    			<div class="left-inners has-text-centered">
-    				<h4>Production Ready</h4>
-    				<i class="material-icons large center">developer_mode</i>
-    				<br/>
-    				<a class="waves-effect waves-light btn-large lime darken-4">Contact Us</a>
-				</div>
     		</div>
     	</div>
     </section>
 
+    <section id="level-section" class="level">
+    	<div class="level-left">
+    		<div class="level-item">
+	    		<div id="left-level-two">
+	    			<img class="level-image" src="./img/web_dev_image_3.jpg">
+	    		</div>
+    		</div>
+    	</div>
+    	<div class="level-right">
+    		<div class="level-item">
+    			<div id="right-level-two">
+    				<div class="left-inners has-text-centered">
+    					<h4>Production Ready</h4>
+    					<i class="material-icons large center">developer_mode</i>
+    					<br/>
+    					<a class="waves-effect waves-light btn-large lime darken-4">Contact Us</a>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   <div id="hero-container">
     <section class="hero is-medium is-light is-bold">
 	  <div class="hero-body">
 	    <div class="container">
@@ -160,7 +165,7 @@
 	    </div>
 	  </div>
 	</section>
-
+	
 	<div id="tile--parent" class="tile is-ancestor">
 	  <div class="tile is-vertical is-8">
 	    <div class="tile">
@@ -216,10 +221,12 @@
 	    </article>
 	  </div>
 	</div>
+	</div>
 
 
 	<!-- FOOTER --> 
 
+	<div id="footer-container" >
 	 <footer class="page-footer lime darken-4">
           <div class="container">
             <div class="row">
@@ -244,5 +251,6 @@
             </div>
           </div>
      </footer>
+     </div>
   </body>
 </html>
