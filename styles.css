@@ -152,6 +152,15 @@ nav {
 	font-size: 1.2rem;
 }
 
+.homePageCreators {
+  border-radius: 50%
+  height: 150px;
+  width: auto;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .left-inners .btn-large {
 	margin-top: 1rem;
 }
@@ -363,8 +372,8 @@ padding-bottom: 15px;
 
 @media all and (max-width:800px) {
     #home-row__item{
-        display: block; 
-        float: none; 
+        display: block;
+        float: none;
         width: 100%;
         margin-bottom: 3rem;
     }
@@ -375,7 +384,7 @@ padding-bottom: 15px;
      	margin-bottom: 0 !important;
     }
 
-    #left-level-one, #right-level-one, 
+    #left-level-one, #right-level-one,
     #left-level-two, #right-level-two{
     	float: left;
      	width: 100%;
@@ -385,10 +394,10 @@ padding-bottom: 15px;
 	.left-inners {
 		margin-top:0;
 	}
-	
+
 	/*General responsivness guide */
      #hero-container, #footer-container{
-     	float: left; 
+     	float: left;
      	width: 100%;
      }
 }
