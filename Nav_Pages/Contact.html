@@ -15,7 +15,11 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Contact Us</title>
   </head>
   <body>
     <nav
@@ -72,97 +76,122 @@
           social media pages or submit the form below.
         </p>
       </div>
-      <div class="contactUsIcons section">
-        <div class="container">
-          <a
-            target="_blank"
-            href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
-            ><i class="contactUsIconsInner fab fa-facebook-square fa-4x"></i
-          ></a>
-          <a href="#"
-            ><i class="contactUsIconsInner fab fa-twitter-square fa-4x"></i
-          ></a>
-          <a href="#"
-            ><i class="contactUsIconsInner fab fa-instagram fa-4x"></i
-          ></a>
-        </div>
-      </div>
       <div class="contactUsForm">
         <form class="" action="POST">
-          <div class="inline contactUsFormItem">
-            <div class="firstName">
-              <h1>First Name</h1>
-              <input
-                class="inline input is-rounded is-primary"
-                type="text"
-                placeholder="First Name"
-              />
+          <div>
+            <div class="contactUsFormItem">
+              <h1 class="contactFormHeaders">First Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormFirstName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
             </div>
-            <div class="lastName">
-              <h1 class="lastName">Last Name</h1>
-              <input
-                class="inline input is-rounded is-primary"
-                type="text"
-                placeholder="Last Name"
-              />
+            <div>
+              <h1 class="contactFormHeaders">Last Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormLastName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
             </div>
           </div>
-          <div class="contactUsFormItem">
-            <h1>Email</h1>
-            <input
-              class="input is-rounded is-primary"
-              type="email"
-              placeholder="Email"
-            />
-          </div>
-          <div class="contactUsFormItem">
-            <h1>Phone Number</h1>
-            <input
-              class="input is-rounded is-primary"
-              type="tel"
-              placeholder="Phone Number"
-            />
-          </div>
-          <div class="contactUsFormItem">
-            <h1>Message</h1>
+          <div>
+            <h1 class="contactFormHeaders">Email</h1>
             <textarea
               class="input is-rounded is-primary"
               name="Message"
-              id=""
+              id="contactFormEmail"
               cols="80"
-              rows="10"
+              rows="1"
               placeholder="Message"
             ></textarea>
           </div>
-          <div class="contactUsFormItem">
+          <div>
+            <h1 class="contactFormHeaders">Phone Number</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id="contactFormPhoneNumber"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div>
+            <h1 class="contactFormHeaders">Message</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id="contactFormMessage"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="contactFormButton">
             <button class="button is-success">Submit</button>
           </div>
         </form>
+        <div class="contactUsIcons section">
+          <div class="container">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+              ><i class="contactUsIconsInner fab fa-facebook-square fa-4x"></i
+            ></a>
+            <a href="#"
+              ><i class="contactUsIconsInner fab fa-twitter-square fa-4x"></i
+            ></a>
+            <a href="#"
+              ><i class="contactUsIconsInner fab fa-instagram fa-4x"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </section>
     <footer class="page-footer lime darken-4">
-           <div class="container">
-             <div class="row">
-               <div class="col l6 s12">
-                 <h5 class="white-text">JUNGLE BUNCH CREATIONS</h5>
-                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-               </div>
-               <div class="col l4 offset-l2 s12">
-                 <h5 class="white-text">Social Platforms</h5>
-                 <ul>
-                   <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour">Facebook</a></li>
-                   <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-                   <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                 </ul>
-               </div>
-             </div>
-           </div>
-           <div class="footer-copyright">
-             <div class="container">
-             © 2019 Copyright JUNGLE BUNCH CREATIONS
-             <a class="grey-text text-lighten-4 right" href="#!">junglebunchcreations@gmail.com</a>
-             </div>
-           </div>
-      </footer>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">JUNGLE BUNCH CREATIONS</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Social Platforms</h5>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright JUNGLE BUNCH CREATIONS
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >junglebunchcreations@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

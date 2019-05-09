@@ -274,27 +274,28 @@ padding-bottom: 15px;
   text-align: center;
 }
 
+.contactFormHeaders {
+  font-size: 20px;
+}
+
 .contactUsIcons {
   text-align: center;
 }
 
 .contactUsIconsInner {
-  padding: 20px;
+  padding: 10px;
 }
 
 .contactUsForm {
-  width: 60%;
+  width: 40%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1px;
 }
 
-.contactUsFormItem {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 10px;
+.contactFormButton {
+  padding-top: 20px;
 }
 
 .input {
@@ -308,12 +309,12 @@ padding-bottom: 15px;
 
 .firstName {
   display: inline-block;
-  width: 45%;
+  width: 50%;
 }
 
 .lastName {
   display: inline-block;
-  width: 45%;
+  width: 50%;
 }
 
 .miniPageHeaderPrint {
