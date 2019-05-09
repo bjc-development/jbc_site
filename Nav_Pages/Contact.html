@@ -28,11 +28,12 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/index.html">
           <img src="/Artboard 1.png" />
         </a>
 
         <a
+          onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
@@ -71,7 +72,7 @@
     </header>
     <section class="section">
       <div class="container">
-        <p class="contactUsContent subtitle is-medium">
+        <p class="contactUsContent">
           Need to get ahold of the team? You can contact us through any of our
           social media pages or submit the form below.
         </p>
