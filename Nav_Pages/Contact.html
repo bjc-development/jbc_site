@@ -15,7 +15,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <title>Contact Us</title>
   </head>
   <body>
@@ -75,52 +78,64 @@
       </div>
       <div class="contactUsForm">
         <form class="" action="POST">
-          <div class="inline contactUsFormItem">
-            <div class="firstName">
-              <h1>First Name</h1>
-              <input
-                class="inline input is-rounded is-primary"
-                type="text"
-                placeholder="First Name"
-              />
+          <div>
+            <div class="contactUsFormItem">
+              <h1 class="contactFormHeaders">First Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormFirstName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
             </div>
-            <div class="lastName">
-              <h1 class="lastName">Last Name</h1>
-              <input
-                class="inline input is-rounded is-primary"
-                type="text"
-                placeholder="Last Name"
-              />
+            <div>
+              <h1 class="contactFormHeaders">Last Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormLastName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
             </div>
           </div>
-          <div class="contactUsFormItem">
-            <h1>Email</h1>
-            <input
+          <div>
+            <h1 class="contactFormHeaders">Email</h1>
+            <textarea
               class="input is-rounded is-primary"
-              type="email"
-              placeholder="Email"
-            />
+              name="Message"
+              id="contactFormEmail"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
           </div>
-          <div class="contactUsFormItem">
-            <h1>Phone Number</h1>
-            <input
+          <div>
+            <h1 class="contactFormHeaders">Phone Number</h1>
+            <textarea
               class="input is-rounded is-primary"
-              type="tel"
-              placeholder="Phone Number"
-            />
+              name="Message"
+              id="contactFormPhoneNumber"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
           </div>
-          <div class="contactUsFormItem">
-            <h1>Message</h1>
+          <div>
+            <h1 class="contactFormHeaders">Message</h1>
             <textarea
               class="input is-rounded is-primary"
               name="Message"
               id="contactFormMessage"
               cols="80"
-              rows="10"
+              rows="1"
               placeholder="Message"
             ></textarea>
           </div>
-          <div class="contactUsFormItem">
+          <div class="contactFormButton">
             <button class="button is-success">Submit</button>
           </div>
         </form>
